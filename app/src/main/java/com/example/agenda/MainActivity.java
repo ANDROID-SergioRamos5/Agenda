@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_add_new_contact);
+        setContentView(R.layout.layout_edit_contact);
 
-        EditText contacto = (EditText)findViewById(R.id.eT_Nombre);
+        /*EditText contacto = (EditText)findViewById(R.id.eT_Nombre);
 
         contacto.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -79,13 +79,6 @@ public class MainActivity extends AppCompatActivity {
                 else
                     DrawableCompat.setTint(d, ContextCompat.getColor(getApplicationContext(),R.color.colorIconos));
             }
-        });
-
-
-
-
-
+        });*/
     }
-
-
 }
