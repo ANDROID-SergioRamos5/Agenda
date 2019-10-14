@@ -34,7 +34,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Etiquetar como"
+                android:text="@string/textView"
                 android:layout_margin="10dp"
                 android:textSize="20dp"
                 />
